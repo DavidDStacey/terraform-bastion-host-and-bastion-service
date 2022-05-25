@@ -1,0 +1,9 @@
+# Don't track conent of these folders
+ssh-keys/
+.terraform/
+
+# don't track these files
+terraform.tfstate
+terraform.tfstate.backup
+tfplan.out
+.terraform.lock.hcl
